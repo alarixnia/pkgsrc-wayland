@@ -4,15 +4,16 @@ List of applications working with Wayland natively
 This list is not intended to be always current or complete.
 Support is being added in new applications all the time.
 
-* Applications using GTK3+, SDL2+, and Qt5+ generally always have support.
-* FreeGLUT has support but it's not enabled by default.
-* GLEW does not yet have usable support. Some applications using GLEW can fall back and still work.
+* Applications using GTK3+, SDL2+, and Qt5+ generally always have support when those libraries are compiled with the `wayland` package option.
+* FreeGLUT has support but it only supports one backend at a time (for now), so you have to disable x11 support.
+* GLEW does not yet have usable support. Some applications using GLEW can fall back and still work. blastem is one of these.
 * For Qt, `export QT_QPA_PLATFORM=wayland-egl` must be set in the environment.
+  Make sure `x11/qt5-qtwayland` is installed.
 * Some 2D only SDL applications have problems. I'm still figuring out why.
 
 Obviously this list doesn't include curses-based CLI applications, which will always work in the terminal emulator of your choice.
 
-If you want to try 3D support out, install `graphics/MesaDemos` and run `eglgears_wayland` or `eglinfo`.
+If you want to try 3D support out, install `graphics/MesaDemos` and run `eglgears_wayland` or `eglinfo`. Make sure MesaLib is compiled with the wayland option and you have `PREFER_PKGSRC=MesaLib` in `mk.conf` (probably glu and libepoxy too).
 
 **TODO:** LibreOffice, Mozilla stuff, Input methods...
 
