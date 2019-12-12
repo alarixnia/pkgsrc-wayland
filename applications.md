@@ -63,7 +63,7 @@ Web browsers
 * www/midori (GTK, WebKit)
 * www/netsurf (GTK)
 * www/otter-browser (Qt, WebKit)
-* www/vimb (GTK, WebKit)
+* www/vimb (GTK, WebKit, vi-ish)
 
 Office
 ------
@@ -93,6 +93,7 @@ PDF readers
 * print/qpdfview (Qt) **[Recommended]**
 * print/xpdf4 (Qt)
 * print/xournalpp (Qt, PDF annotator)
+* print/zathura (GTK, vi-ish)
 
 Image viewers
 -------------
