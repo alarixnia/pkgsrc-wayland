@@ -9,7 +9,6 @@ Support is being added in new applications all the time.
 * GLEW does not yet have usable support. Some applications using GLEW can fall back and still work. blastem is one of these.
 * For Qt, `export QT_QPA_PLATFORM=wayland-egl` must be set in the environment.
   Make sure `x11/qt5-qtwayland` is installed.
-* Some 2D only SDL applications have problems. I'm still figuring out why.
 
 Obviously this list doesn't include curses-based CLI applications, which will always work in the terminal emulator of your choice.
 
