@@ -98,6 +98,7 @@ PDF readers
 Image viewers
 -------------
 
+* graphics/imv (Independent) **[Recommended]**
 * graphics/ristretto (GTK)
 * graphics/geeqie (GTK)
 
@@ -197,6 +198,7 @@ Games
 * games/simutrans (SDL)
 * games/quakespasm (SDL)
 * games/stone-soup-sdl (SDL)
+* games/vvvvvv (SDL)
 * games/wesnoth (SDL)
 * games/xonotic (SDL)
 * games/yquake2 (SDL)
@@ -207,12 +209,12 @@ Emulators
 * emulators/aranym (SDL)
 * emulators/blastem (SDL)
 * emulators/dolphin-emu (GTK/SDL)
-* emulators/dosbox-x (SDL) **[Recommended]**
+* emulators/dosbox-x (SDL)
 * emulators/fuse-emulator (GTK)
 * emulators/fs-uae (SDL)
 * emulators/hatari (SDL)
 * emulators/mame (SDL)
-* emulators/mednafen (SDL) **[Recommended]**
+* emulators/mednafen (SDL)
 * emulators/mednaffe (GTK)
 * emulators/melonds (GTK/SDL)
 * emulators/mgba (Qt)
