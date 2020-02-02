@@ -42,7 +42,8 @@ Audio editors
 Video players
 -------------
 
-* multimedia/mpv (SDL)
+* multimedia/mpv (Independent) **[Recommended]**
+	- Use `--vo=gpu --gpu-context=wayland`, or add it to `$HOME/.config/mpv/mpv.conf` without the leading dashes
 * multimedia/ffplay (SDL)
 * multimedia/vlc (Qt)
 
