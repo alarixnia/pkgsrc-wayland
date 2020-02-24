@@ -100,18 +100,21 @@ Image viewers
 -------------
 
 * graphics/imv (Independent) **[Recommended]**
-* graphics/ristretto (GTK)
 * graphics/geeqie (GTK)
+* graphics/lximage-qt (Qt, use dbus-launch)
+* graphics/ristretto (GTK)
 
 Terminal emulators
 ------------------
 
+* x11/qterminal (Qt)
 * x11/sakura (GTK) **[Recommended]**
 * x11/xfce4-terminal (GTK)
 
 Text editors
 ------------
 
+* editors/featherpad (Qt)
 * editors/gedit (GTK)
 * editors/l3afpad (GTK)
 * editors/tea (Qt)
@@ -120,12 +123,14 @@ Text editors
 File managers
 -------------
 
-* sysutils/xfce4-thunar (GTK)
 * sysutils/gentoo (GTK)
+* sysutils/pcmanfm-qt (Qt, use dbus-launch)
+* sysutils/xfce4-thunar (GTK)
 
 Archive managers
 ----------------
 
+* archivers/arqiver (Qt)
 * sysutils/xfce4-xarchiver (GTK)
 
 Calculators
